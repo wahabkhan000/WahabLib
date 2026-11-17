@@ -79,10 +79,10 @@ WahabLib/
 ### Usage
 1. Clone the repository:
    ```bash
-   • git clone https://github.com
-   • HTTPS (without .git): git clone https://github.com/wahabkhan000/WahabLib
-   • SSH (if you have SSH keys configured): git clone git@github.com:wahabkhan000/WahabLib.git
-   • GitHub CLI: gh repo clone wahabkhan000/WahabLib
+   * **git clone https://github.com
+   * **HTTPS (without .git): git clone https://github.com/wahabkhan000/WahabLib
+   * **SSH (if you have SSH keys configured): git clone git@github.com:wahabkhan000/WahabLib.git
+   * **GitHub CLI: gh repo clone wahabkhan000/WahabLib
    ```
 2. Include `WahabLib.h` at the top of your C++ file (no `<iostream>` required for defined library operations):
    ```cpp
@@ -105,8 +105,8 @@ WahabLib/
 
 * [x] Core I/O, Types, Error, and Utility modules
 * [x] Linear & Non-linear Data Structures (Arrays, Linked Lists, Stacks, Queues)
-* [x] Full testing, edge-case hardening, and performance optimizations *(In Progress)*
-* [x] Trees, Graphs, Hash Maps, and additional algorithms *(Planned — ETA: 2–3 months)*
+* [ ] Full testing, edge-case hardening, and performance optimizations *(In Progress)*
+* [ ] Trees, Graphs, Hash Maps, and additional algorithms *(Planned — ETA: 2–3 months)*
 
 ---
 
