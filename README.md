@@ -79,7 +79,10 @@ WahabLib/
 ### Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com
+   • git clone https://github.com
+   • HTTPS (without .git): git clone https://github.com/wahabkhan000/WahabLib
+   • SSH (if you have SSH keys configured): git clone git@github.com:wahabkhan000/WahabLib.git
+   • GitHub CLI: gh repo clone wahabkhan000/WahabLib
    ```
 2. Include `WahabLib.h` at the top of your C++ file (no `<iostream>` required for defined library operations):
    ```cpp
