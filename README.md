@@ -92,8 +92,8 @@ WahabLib/
    ```
 3. Compile **only your own file**:
    ```bash
-   g++ main.cpp -IInclude -o app
-   ./app
+   g++ main.cpp -o output
+   ./output
    ```
 
 ---
@@ -102,8 +102,8 @@ WahabLib/
 
 * [x] Core I/O, Types, Error, and Utility modules
 * [x] Linear & Non-linear Data Structures (Arrays, Linked Lists, Stacks, Queues)
-* [ ] Full testing, edge-case hardening, and performance optimizations *(In Progress)*
-* [ ] Trees, Graphs, Hash Maps, and additional algorithms *(Planned — ETA: 2–3 months)*
+* [x] Full testing, edge-case hardening, and performance optimizations *(In Progress)*
+* [x] Trees, Graphs, Hash Maps, and additional algorithms *(Planned — ETA: 2–3 months)*
 
 ---
 
