@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Cross-Platform",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/**"
+            ],
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
