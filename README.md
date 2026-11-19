@@ -63,6 +63,11 @@ WahabLib/
 │       ├── Math/           # BasicMath.h, NumberTheory.h, Random.h
 │       └── String/         # String.h
 ├── src/                    # Corresponding implementation files
+|    ├── Algorithms/        # Comparison.cpp, Searching.cpp, Sorting.cpp
+│    ├── Containers/        # Array, DynamicArray, Vector, LinkedLists, Stack, Queues, Deque, PriorityQueue
+│    ├── Core/              # Error.cpp, Input.cpp, Output.cpp, Types.cpp, Utility.cpp
+│    ├── Math/              # BasicMath.cpp, NumberTheory.cpp, Random.cpp
+│    └── String/            # String.cpp
 ├── WahabLib.h              # Master header file (include this in your projects)
 ├── WahabLib.cpp            # Master source file
 ├── main.cpp                # Example usage and testing
