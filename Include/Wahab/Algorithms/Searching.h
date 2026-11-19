@@ -3,67 +3,7 @@
 #include"../Core/Types.h"
 namespace CustomLib{
    
-    Bool LSearch(const Int*, Int, Int);
-    Bool LSearch(const Float*, Float, Int);
-    Bool LSearch(const Double*, Double, Int);
-    Bool LSearch(const Char*, Char);
-
-    Bool LSearch(const U_Int*, U_Int, Int);
-    Bool LSearch(const U_Int*, L_Int, Int);
-    Bool LSearch(const U_Int*, LL_Int, Int);
-    Bool LSearch(const U_Int*, Sh_Int, Int);
-    Bool LSearch(const U_Int*, UL_Int, Int);
-    Bool LSearch(const U_Int*, ULL_Int, Int);
-
-    Bool LSearch(const L_Int*, U_Int, Int);
-    Bool LSearch(const L_Int*, L_Int, Int);
-    Bool LSearch(const L_Int*, LL_Int, Int);
-    Bool LSearch(const L_Int*, Sh_Int, Int);
-    Bool LSearch(const L_Int*, UL_Int, Int);
-    Bool LSearch(const L_Int*, ULL_Int, Int);
-
-    Bool LSearch(const LL_Int*, U_Int, Int);
-    Bool LSearch(const LL_Int*, L_Int, Int);
-    Bool LSearch(const LL_Int*, LL_Int, Int);
-    Bool LSearch(const LL_Int*, Sh_Int, Int);
-    Bool LSearch(const LL_Int*, UL_Int, Int);
-    Bool LSearch(const LL_Int*, ULL_Int, Int);
-
-    Bool LSearch(const Sh_Int*, U_Int, Int);
-    Bool LSearch(const Sh_Int*, L_Int, Int);
-    Bool LSearch(const Sh_Int*, LL_Int, Int);
-    Bool LSearch(const Sh_Int*, Sh_Int, Int);
-    Bool LSearch(const Sh_Int*, UL_Int, Int);
-    Bool LSearch(const Sh_Int*, ULL_Int, Int);
-
-    Bool LSearch(const UL_Int*, U_Int, Int);
-    Bool LSearch(const UL_Int*, L_Int, Int);
-    Bool LSearch(const UL_Int*, LL_Int, Int);
-    Bool LSearch(const UL_Int*, Sh_Int, Int);
-    Bool LSearch(const UL_Int*, UL_Int, Int);
-    Bool LSearch(const UL_Int*, ULL_Int, Int);
-
-    Bool LSearch(const ULL_Int*, U_Int, Int);
-    Bool LSearch(const ULL_Int*, L_Int, Int);
-    Bool LSearch(const ULL_Int*, LL_Int, Int);
-    Bool LSearch(const ULL_Int*, Sh_Int, Int);
-    Bool LSearch(const ULL_Int*, UL_Int, Int);
-    Bool LSearch(const ULL_Int*, ULL_Int, Int);
-
-
-    Bool BSearch(const Int*, Int, Int);
-    Bool BSearch(const Float*, Float, Int);
-    Bool BSearch(const Double*, Double, Int);
-    Bool BSearch(const Char*, Char);
-
-    Bool BSearch(const U_Int*, U_Int, Int);
-    Bool BSearch(const U_Int*, L_Int, Int);
-    Bool BSearch(const U_Int*, LL_Int, Int);
-    Bool BSearch(const U_Int*, Sh_Int, Int);
-    Bool BSearch(const U_Int*, UL_Int, Int);
-    Bool BSearch(const U_Int*, ULL_Int, Int);
-
-    Bool BSearch(const L_Int*, U_Int, Int);
+    
     Bool BSearch(const L_Int*, L_Int, Int);
     Bool BSearch(const L_Int*, LL_Int, Int);
     Bool BSearch(const L_Int*, Sh_Int, Int);
