@@ -45,5 +45,27 @@ namespace CustomLib{
     void D_SelectionSort(Sh_Int *, Int);
     void D_SelectionSort(UL_Int *, Int);
     void D_SelectionSort(ULL_Int *, Int);
+
+    void A_InsertionSort(Int *, Int);
+    void A_InsertionSort(Float *, Int);
+    void A_InsertionSort(Double *, Int);
+    void A_InsertionSort(Char *, Int);
+    void A_InsertionSort(U_Int *, Int);
+    void A_InsertionSort(L_Int *, Int);
+    void A_InsertionSort(LL_Int *, Int);
+    void A_InsertionSort(Sh_Int *, Int);
+    void A_InsertionSort(UL_Int *, Int);
+    void A_InsertionSort(ULL_Int *, Int);
+    
+    void D_InsertionSort(Int *, Int);
+    void D_InsertionSort(Float *, Int);
+    void D_InsertionSort(Double *, Int);
+    void D_InsertionSort(Char *, Int);
+    void D_InsertionSort(U_Int *, Int);
+    void D_InsertionSort(L_Int *, Int);
+    void D_InsertionSort(LL_Int *, Int);
+    void D_InsertionSort(Sh_Int *, Int);
+    void D_InsertionSort(UL_Int *, Int);
+    void D_InsertionSort(ULL_Int *, Int);
 }
 #endif
