@@ -70,7 +70,7 @@ WahabLib/
 │    └── String/            # String.cpp
 ├── WahabLib.h              # Master header file (include this in your projects)
 ├── WahabLib.cpp            # Master source file
-├── main.cpp                # Example usage and testing
+├── example.cpp             # Example usage and testing
 └── LICENSE                 # MIT License
 ```
 
@@ -106,7 +106,7 @@ WahabLib/
    ```
 3. Compile **only your own file**:
    ```bash
-   g++ main.cpp -o output
+   g++ example.cpp -o output
    ./output
    ```
 
