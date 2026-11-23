@@ -863,6 +863,167 @@ void D_SelectionSort(Int *pointer, Int size)
             }
         }
     }
+void A_InsertionSort(Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(Float *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(Double *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(Char *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(U_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(L_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(LL_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(Sh_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(UL_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+    void A_InsertionSort(ULL_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 1; i < size; i++)
+        {
+            Int key = pointer[i];
+            Int j = i - 1;
+            while (j >= 0 && pointer[j] > key)
+            {
+                pointer[j + 1] = pointer[j];
+                j--;
+            }
+            pointer[j + 1] = key;
+        }
+    }
+
 void D_InsertionSort(Int *pointer, Int size)
     {
         if (!pointer)
