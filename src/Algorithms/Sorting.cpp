@@ -643,4 +643,224 @@ void A_SelectionSort(Int *pointer, Int size)
             }
         }
     }
+void D_SelectionSort(Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(Float *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(Double *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(Char *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(U_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(L_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(LL_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(Sh_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(UL_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
+    void D_SelectionSort(ULL_Int *pointer, Int size)
+    {
+        if (!pointer)
+            return;
+        for (Int i = 0; i < size - 1; i++)
+        {
+            Int Index = i;
+            for (Int j = i + 1; j < size; j++)
+            {
+                if (pointer[j] > pointer[Index])
+                {
+                    Index = j;
+                }
+            }
+            if (Index != i)
+            {
+                Int copy = pointer[i];
+                pointer[i] = pointer[Index];
+                pointer[Index] = copy;
+            }
+        }
+    }
 }
